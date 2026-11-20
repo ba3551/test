@@ -99,7 +99,7 @@ _upload_url = [UPLOAD_APP if USE_OAUTH1 else UPLOAD_WEB]
 
 DB_FILE = Path(os.environ.get(
     "DB_PATH",
-    "/home/daytona/scripts/3dgoon_db.json",
+    "3dgoon_db.json",
 ))
 
 BASE_DIR = DB_FILE.parent
